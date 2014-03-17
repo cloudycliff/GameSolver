@@ -1,0 +1,19 @@
+entry = {
+	cell = PSLinkCell;
+	icon = "GameSolver.png";
+	label = "GameSolver";
+};
+title = "GameSolver";
+items = (
+	{
+		cell = PSLinkCell;
+		bundle = LibActivator;
+		isController = 1;
+		label = "Activation Methods";
+		activatorListener = "com.cloudycliff.gamesolver";
+	},
+	{
+		cell = PSGroupCell;
+		footerText = "Copyright (c) Cliff";
+	},
+);

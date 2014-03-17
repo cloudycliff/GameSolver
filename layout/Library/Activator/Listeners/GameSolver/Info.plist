@@ -1,0 +1,5 @@
+{
+    title = "GameSolver";
+    description = "Game Solved";
+    "compatible-modes" = ("springboard", "application", "lockscreen");
+}
